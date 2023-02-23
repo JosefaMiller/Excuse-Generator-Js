@@ -2,7 +2,7 @@
 
 body {
   display: flex;
-  background-color: #e9c3b6;
+  background-color: #ffdfd4;
   flex-direction: column;
   align-items: center;
   font-family: "Amaranth", sans-serif;
@@ -16,11 +16,13 @@ body {
 }
 button {
   width: 15%;
+  height: 50px;
   color: #000000;
-  background-color: #b45924;
+  background-color: #99491b;
+  border-radius: 10px;
 }
 button:hover {
-  background-color: #8d4a6f;
+  background-color: #d1789a;
   color: #ffffff;
   cursor: not-allowed;
 }
