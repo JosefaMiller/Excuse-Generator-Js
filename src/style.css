@@ -1,1 +1,28 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  display: flex;
+  background-color: #ffd8cb;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Amaranth", sans-serif;
+  width: 100%;
+  padding-top: 15%;
+  color: #2c2522;
+}
+
+#excuse {
+  font-size: 80px;
+}
+button {
+  width: 15%;
+  height: 50px;
+  color: #000000;
+  background-color: #6e2310;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: #9e536a;
+  color: #ffffff;
+  cursor: not-allowed;
+}
